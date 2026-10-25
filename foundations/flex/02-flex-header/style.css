@@ -12,14 +12,29 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+  list-style-type: none;/* this removes the dots on the list items*/
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none;/* this removes the line under the links */
+}
+
+
+/* ----------------------------------------- */
+
+.header{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
 }
